@@ -1,0 +1,31 @@
+inherit:
+  - naming-restrict-live
+  - git-10
+  - html
+  - css
+  - aria-landmarks
+  - main-link-focus
+  - favicons
+
+allFiles:
+  html:
+    unique:
+      - 'h1'
+    has:
+      - 'header'
+      - 'h1'
+      - 'main'
+      - 'nav'
+      - 'h2'
+      - 'footer'
+      - 'link[rel="stylesheet"]'
+
+html:
+  - path: 'index.html'
+
+files:
+  - directory: 'images'
+    smushed: true
+    maxHeight: 2500
+    maxWidth: 2500
+    maxSize: 250
