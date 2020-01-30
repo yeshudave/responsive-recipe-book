@@ -1,0 +1,56 @@
+html {
+  font-family: Baskervville, serif;
+}
+
+.banner {
+  background-image: url("../images/tree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  border-bottom: 3px solid #2d5a4d;
+  padding-top: 180px;
+}
+
+h1, h2, h3, nav {
+  font-family: "Varela Round", sans-serif;
+  color: #2d5a4d;
+}
+
+nav {
+  border-bottom: 3px solid #2d5a4d;
+  background-color: #b20000;
+}
+
+h4 {
+  font-family: "Varela Round", sans-serif;
+  color: #b20000;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.img-t {
+  width: 80%;
+  height: 50%;
+  border-radius: 25px;
+}
+
+.img-b {
+  width: 90%;
+  height: 60%;
+  border-radius: 25px;
+}
+
+.image {
+  text-align: right;
+}
+
+.cookie {
+  color: #b20000;
+}
+
+.end {
+  border-bottom: 3px solid #2d5a4d;
+}
